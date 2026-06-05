@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const DB_PATH = path.join(__dirname, 'données');
+if (!fs.existsSync(DB_PATH)) fs.mkdirSync(DB_PATH, { recursive: true });
 
 function getUser(userId) {
   const file = path.join(DB_PATH, `${userId}.json`);
