@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const DB_PATH = path.join(__dirname, 'data');
+const DB_PATH = path.join(__dirname, 'données');
 
 function getUser(userId) {
   const file = path.join(DB_PATH, `${userId}.json`);
