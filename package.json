@@ -1,0 +1,13 @@
+{
+  "name": "ifruit-roleplay-bot",
+  "version": "1.0.0",
+  "description": "Bot Discord RP GTA-like",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5"
+  }
+}
